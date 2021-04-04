@@ -1,0 +1,12 @@
+{
+  "name": "Eureka Server",
+  "description": "Eureka Server Employee dashboard.",
+  "website": "https://github.com/valmeza/employee-eureka-server",
+  "success_url": "/",
+  "env": {
+    "EUREKA_USER_PASSWORD": {
+      "description": "Password for the admin interface.",
+      "generator": "secret"
+    }
+  }
+}
