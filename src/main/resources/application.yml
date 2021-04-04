@@ -1,4 +1,5 @@
 server.port: ${PORT:8661}
+spring.application.name: eureka-server
 
 eureka:
   instance:
